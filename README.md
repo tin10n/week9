@@ -1,8 +1,8 @@
 💰 Welcome to Budget Tracker – Track Your Spending 💰
 
-⋅˚📈⋆˚💡｡⋆୨୧˚✎˚⋅ Let’s Take Control of Your Finances! ⋅˚📈⋆˚💡｡⋆୨୧˚✎˚⋅
+⋅˚📈⋆˚💼｡⋆💳✨˚⋅ Let’s Take Control of Your Finances! ⋅˚📈⋆˚💼｡⋆💳✨˚⋅
 
-💳 This is my submission for the Guided Inquiry Week 9 assignment, featuring a clean and functional Budget Tracker app. It allows you to log income & expenses, see your total balance instantly, and store your data locally so nothing gets lost when you refresh. 💳
+📈💰📊💳 This is my submission for the Guided Inquiry Week 9 assignment, featuring a clean and functional Budget Tracker app. It allows you to log income & expenses, see your total balance instantly, and store your data locally so nothing gets lost when you refresh. 💳📊💰📈
 
 ** ** What’s in this project? ** ** 
 This repository contains the core files for the Budget Tracker, which can be used directly in your browser.
