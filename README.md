@@ -43,12 +43,12 @@ Key Concepts I Learned:
 - Refresh the page without losing your data thanks to localStorage.
 
 ** ** What’s Next? ** **
+
 This is just the beginning!
-- Future enhancements could include:
-Adding transaction categories (e.g., Food, Bills, Entertainment).
+Future enhancements could include:
+- Adding transaction categories (e.g., Food, Bills, Entertainment).
 - Visual charts to display spending patterns.
-- Exporting transactions to CSV.
 - Search & filter functionality.
 
 
-‧₊˚⋅ Feel free to explore the code, try the tracker, and see how your budget stacks up! ‧₊˚⋅
+‧₊˚ ⋅ ** Feel free to explore the code, try the budget tracker to see how your budget stacks up, and check out the live version hosted on Vercel! ‧₊˚ ⋅ **

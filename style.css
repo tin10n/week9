@@ -1,171 +1,110 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --primary-color: #141cff;
-  --secondary-color: #8cfdbb;
-  --tertiary-color: #ec8a7f;
-  --card-background: #ffffff;
-}
-
 body {
   font-family: "Inter", sans-serif;
-  background-color: #f9f7fd;
-  color: #213447;
-  line-height: 1.6;
-}
+  background-color: #f7f9fc;
+  color: #2c3e50;
+  line-height: 1.6; }
 
-.app-container {
-  display: flex;
-  gap: 2rem;
-  width: 100%;
-  max-width: 1200px;
-  margin: 2rem auto;
-  line-height: 1.2;
-}
-
-.input-container {
-  flex: 1;
-  background: var(--card-background);
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(10, 9, 9, 0.05);
-  padding: 2rem;
-  height: fit-content;
-}
-
-.transactions-container {
-  flex: 1;
-  background: var(--card-background);
-  border-radius: 12px;
-  box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.05);
-  padding: 2rem;
-  max-height: 560px;
-  overflow-y: auto;
-}
-
-.header {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.header h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  color: var(--primary-color);
-}
-
-#balance {
-  text-align: left;
-  font-size: 2.1rem;
-  font-weight: 700;
-  margin: 1.5rem 0;
-}
-
-#totalIncome {
-  text-align: left;
-  font-size: 1.7rem;
-  font-weight: 700;
-  margin: 1.5rem 0;
-}
-
-#totalExpense {
-  text-align: left;
-  font-size: 1.7rem;
-  font-weight: 700;
-  margin: 1.5rem 0;
-}
-
-#transactionForm {
-  display: grid;
-  gap: 1rem;
-}
-
-input,
-select,
-button {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  font-size: 1rem;
-}
-
-input:focus,
-select:focus {
-  outline: none;
-  border-color: var(--primary-color);
-  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
-}
-
-button {
-  background-color: var(--primary-color);
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-weight: 600;
-  transition: all 300ms ease;
-}
-
-button:hover {
-  background-color: #3a7bd5;
-  transform: translateY(-2px);
-}
-
-#transactionList {
-  margin-top: 1.5rem;
-}
-
-.transaction {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  border-radius: 8px;
-  margin-bottom: 0.5rem;
-  transition: all 300ms ease;
-}
-
-.transaction.income {
-  background-color: rgba(46, 204, 113, 0.1);
-}
-
-.transaction.expense {
-  background-color: rgba(231, 76, 60, 0.1);
-}
-
-.transaction:hover {
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-.transaction-amount-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.delete-btn {
-  background-color: var(--tertiary-color);
-  padding: 8px;
-  font-size: 0.8rem;
-  border-radius: 4px;
-  transition: all 300ms ease;
-}
-
-.delete-btn:hover {
-  background-color: #c0392b;
-  transform: translateY(0);
-}
-
-@media (max-width: 768px) {
-  .app-container {
-    flex-direction: column;
+body {
+  background: linear-gradient(to right, #ecf4ff, #8c9ef7); }
+  body .app-container {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    line-height: 1.2; }
+  body .input-container,
+  body .transactions-container {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    height: fit-content; }
+  body .transactions-container {
+    max-height: 560px;
+    overflow-y: auto; }
+  body .header {
+    text-align: center;
+    margin-bottom: 1.5rem; }
+    body .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #141cff; }
+  body #balance {
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 1.5rem 0; }
+  body #totalIncome,
+  body #totalExpense {
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 1.5rem 0; }
+  body #transactionForm {
+    display: grid;
+    gap: 1rem; }
+  body input,
+  body select,
+  body button {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem; }
+  body input:focus,
+  body select:focus {
+    outline: none;
+    border-color: #141cff;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1); }
+  body button {
+    background-color: #141cff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 300ms ease; }
+    body button:hover {
+      background-color: #0008e0;
+      transform: translateY(-2px); }
+  body #transactionList {
+    margin-top: 1.5rem; }
+  body .transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem;
-  }
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    transition: all 300ms ease; }
+    body .transaction.income {
+      background-color: rgba(140, 253, 187, 0.1); }
+    body .transaction.expense {
+      background-color: rgba(236, 138, 127, 0.1); }
+    body .transaction:hover {
+      background-color: rgba(0, 0, 0, 0.05); }
+  body .transaction-amount-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+  body .delete-btn {
+    background-color: #ec8a7f;
+    padding: 8px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    transition: all 300ms ease; }
+    body .delete-btn:hover {
+      background-color: #e56153;
+      transform: translateY(0); }
+  @media (max-width: 768px) {
+    body .app-container {
+      flex-direction: column;
+      padding: 1rem; }
+    body #balance {
+      font-size: 1.8rem; }
+    body #totalIncome,
+    body #totalExpense {
+      font-size: 1.5rem; } }
 
-  #balance {
-    font-size: 2rem;
-  }
-}
+/*# sourceMappingURL=style.css.map */
